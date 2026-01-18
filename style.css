@@ -259,6 +259,11 @@
     .mic-img {
         width: 70px;
     }
+
+    #about .ratings{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 
