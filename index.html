@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Connect to TailWind -->
-
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-        </head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">
+    </script>
 
     <!--Adding  google fonts-->
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!--Title and CSS connector-->
 
     <title>TechWave</title>
     <link rel="stylesheet" href="style.css">
 
     <!-- Add Favicon -->
-    <link rel="shortcut icon" href="./assets/Icons/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./Assets/Icons/favicon.png" type="image/x-icon">
 
 </head>
-<body>
-    
+
+<body class="font-inter bg-[rgba(26,11,46,1)] text-white max-w-[1600px]">
+
+    <!-- Navigation Section -->
+
+    <header>
+        <nav class="max-w-[1200px] mx-auto px-4 py-6 flex justify-between items-center">
+            <div class="logo text-2xl font-bold tracking-wide">
+                Tech<span class="text-pink-500">Wave</span>
+            </div>
+        
+            <div class="hidden min-[576px]:flex gap-8 opacity-80">
+                <a href="#" class="hover:text-pink-400 transition">About</a>
+                <a href="#" class="hover:text-pink-400 transition">Episodes</a>
+                <a href="#" class="hover:text-pink-400 transition">Host</a>
+            </div>
+        
+            <button class="hidden min-[576px]:flex items-center gap-2 btn primary-btn rounded-[62rem] py-[12px] px-[16px]">
+                Subscribe
+                <img src="./Assets/Icons/ArrowRight.png" alt="">
+            </button>
+        
+            <button class="min-[576px]:hidden">
+                <img src="./Assets/Icons/hamburger-menu.png" alt="">
+            </button>
+        </nav>
+    </header>
+
 </body>
 </html>
