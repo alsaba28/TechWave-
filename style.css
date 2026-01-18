@@ -1,0 +1,13 @@
+/* Adding google fonts - Inter */
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/*Universal element styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
