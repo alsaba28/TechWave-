@@ -423,7 +423,6 @@ a:hover {
     opacity: 0.6;
     font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 12px;
 }
 
 
@@ -439,7 +438,6 @@ a:hover {
 
 .clock img {
     width: 20px;
-
     height: 20px;
 
 }
@@ -447,9 +445,7 @@ a:hover {
 
 .clock .time {
     font-size: 0.875rem;
-
     font-weight: 500;
-
     color: rgba(0, 255, 136, 1);
 
 }
@@ -613,8 +609,6 @@ a:hover {
     }
 
     #about .ratings {
-        /* display: flex;
-        flex-wrap: wrap; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
