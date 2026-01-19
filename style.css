@@ -228,6 +228,30 @@
 
 /* About section End  */
 
+/* Why Choose Section Start  */
+
+#choose .choose-heading {
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.choose-contents{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.choose-contents .choose-card-1{
+    grid-row: span 2;
+}
+
+
+
+
+
 /* Responsive Layout  */
 
 @media screen and (max-width: 576px) {
