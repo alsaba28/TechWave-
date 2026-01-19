@@ -504,7 +504,7 @@ a:hover {
 
 .footer {
     position: relative;
-    background: url(./Assets/Images/footer-bg.png) center / cover no-repeat;
+    background: url(./assets/Images/footer-bg.png) center / cover no-repeat;
     padding: 6rem 1rem;
     text-align: center;
     overflow: hidden;
@@ -645,7 +645,7 @@ a:hover {
     }
 
     .footer {
-        background: url(./Assets/Images/footer-bg.png);
+        background: url(./assets/Images/footer-bg.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: auto 218px;
