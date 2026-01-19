@@ -548,6 +548,15 @@ a:hover{
     }
 }
 
+/* Host Section End  */
+
+/* Footer Section Start  */
+
+.footer{
+    background: url(./Assets/Images/footer-bg.png);
+    background-position: 100%;
+    width: 100%;
+}
 
 
 
