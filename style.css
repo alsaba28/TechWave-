@@ -645,11 +645,11 @@ a:hover {
     }
 
     .footer {
-        padding: 4rem 1rem;
-        width: 100%;
+        background: url(./Assets/Images/footer-bg.png);
         background-position: center;
-        background-size: contain;
-        height: fit-content;
+        background-repeat: no-repeat;
+        background-size: auto 218px;
+        padding: 4rem 1rem;
     }
 
     .footer .logo img {
