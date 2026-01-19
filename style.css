@@ -331,7 +331,7 @@
     border-radius: 2.5rem;
 }
 
-
+/* Why Choose Section End  */
 
 
 
@@ -370,6 +370,18 @@
     #about .ratings{
         display: flex;
         flex-wrap: wrap;
+    }
+
+     .choose-contents {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .choose-card-1, .choose-card-2, .choose-card-3, .choose-card-4, .choose-card-5{
+        width: 400px;
+        height: auto;
     }
 }
 
