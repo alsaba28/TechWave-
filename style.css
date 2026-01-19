@@ -475,6 +475,7 @@ a:hover{
     justify-content: center;
 }
 
+/* Host Section End  */
 
 
 
@@ -540,7 +541,15 @@ a:hover{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    #host .host-content{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
+
+
 
 
 
