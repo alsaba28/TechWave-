@@ -19,6 +19,14 @@
     transition: transform 0.3s ease;
 }
 
+a{
+    transition: transform 0.3s ease;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
 /* Banner Section Start  */
 
 .banner {
@@ -391,29 +399,81 @@
     margin-bottom: 12px;
 }
 
-#feature .clock{
-    display: inline-flex;
+
+
+
+.clock {
+    display: flex;
     align-items: center;
     gap: 0.5rem;
-    margin-top: 0;
+    
 }
 
-#feature .clock .time{
-    color: rgba(0, 255, 136, 1);
-    font-size: 0.9rem;
-    font-weight: 900;
-    line-height: 1;
+
+.clock img {
+    width: 20px;
+    
+    height: 20px;
+    
 }
 
-#feature .clock img{
-    width: 16px;
-    height: 16px;
-    object-fit: contain;
+
+.clock .time {
+    font-size: 0.875rem;
+  
+    font-weight: 500;
+    
+    color:rgba(0, 255, 136, 1);
+
 }
 
 /* Featured Episodes Section End  */
 
+/* Host Section Start */
 
+#host .host-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#host .host-content{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2.5rem;
+    border-radius: 2.5rem;
+    background: rgba(53, 17, 101, 0.4);
+    margin-bottom: 7.5rem;
+}
+
+#host .host-intro .host-name{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+#host .host-intro .host-description{
+    opacity: 0.6;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#host .host-intro .social-links{
+    display: flex;
+    gap: 1rem;
+}
+
+#host .social-links .social-link{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
