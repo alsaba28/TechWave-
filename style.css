@@ -5,6 +5,10 @@
     font-optical-sizing: auto;
 }
 
+body{
+    border: 2px solid tomato;
+}
+
 .container {
     max-width: 1200px;
     width: 85%;
